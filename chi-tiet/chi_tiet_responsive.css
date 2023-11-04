@@ -1,0 +1,119 @@
+@media (max-width: 1024px) {
+    .main-container {
+        padding: 0 1rem;
+    }
+
+    .slider {
+        height: 6rem;
+    }
+
+    .slider .dots li {
+        width: 9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .slider .dots li {
+        width: 7.5rem;
+    }
+
+    .slide-show .infomation {
+        flex-direction: column;
+    }
+
+    .product-price .gia-ban .gia-sale {
+        font-size: 2rem;
+    }
+
+    .product-price .gia-ban .gia-goc {
+        font-size: 1.5rem;
+    }
+
+    .product-price .tra-gop-thang {
+        font-size: 1.2rem;
+    }
+
+    .container-buy-now p {
+        font-size: 1.2rem;
+    }
+
+    .technical-popup .technical-popup-container {
+        width: 70%;
+    }
+}
+
+@media (max-width: 544px) {
+    .product-name h1 {
+        font-size: 2rem;
+    }
+
+    .slider {
+        height: 5rem;
+    }
+
+    .slider .dots li {
+        width: 7rem;
+    }
+    
+    .product-detail {
+        grid-template-columns: 1fr;
+    }
+
+    .main-container .infomation {
+        flex-direction: column;
+    }
+    
+    .slide-show .slide-container {
+        padding: 0;
+    }
+
+    .technical-popup .technical-popup-container {
+        width: 100%;
+    }
+
+    .item-description p {
+        width: 30%;
+    }
+    
+    .item-description div {
+        width: 50%;
+    }
+}
+
+@media (max-width: 375px) {
+    .slide-container .slider {
+        width: 30rem;
+        height: 30rem;
+    }
+
+    .list .item img {
+        width: 30rem;
+    }
+
+    .slider {
+        height: 5rem;
+    }
+
+    .slider .dots li {
+        width: 6rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .slide-container .slider {
+        width: 30rem;
+        height: 35rem;
+    }
+
+    .slide-container .slider .list {
+        height: 85%;
+    }
+
+    .slider {
+        height: 4rem;
+    }
+
+    .slider .dots li {
+        width: 5rem;
+    }
+}
