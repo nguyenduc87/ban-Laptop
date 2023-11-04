@@ -1,4 +1,4 @@
-import productList from "/dung-chung/data.js";
+import productList from "../dung-chung/data.js";
 const dollar = new Intl.NumberFormat('en-DE');
 let cartProductList = [];
 
