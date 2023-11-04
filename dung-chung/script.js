@@ -1,4 +1,4 @@
-import productList from "./data.js";
+import productList from "../data.js";
 const dollar = new Intl.NumberFormat('en-DE');
 
 // Popup nav danh muc
