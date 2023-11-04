@@ -1,4 +1,4 @@
-import productList from "/dung-chung/data.js";
+import productList from "../dung-chung/data.js";
 
 const ulNode = document.querySelector('.products-list');
 const cartNumber = document.querySelector('.cart .cart-number');
