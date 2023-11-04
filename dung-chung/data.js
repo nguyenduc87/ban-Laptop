@@ -7,7 +7,7 @@ const productList = [
             giaChuaSale: 15990000,
             giaSale: 11490000
         },
-        image: '/images/1. Acer Aspire 3.JPG',
+        image: '/ban-Laptop/images/1. Acer Aspire 3.JPG',
         need: 'student',
         brand: 'acer',
         list_img: [
@@ -58,7 +58,7 @@ const productList = [
             giaChuaSale: 13990000,
             giaSale: 12450000
         },
-        image: '/images/2. Laptop Gaming Acer Nitro 5 Tiger AN515 58 773Y.JPG',
+        image: '/ban-Laptop/images/2. Laptop Gaming Acer Nitro 5 Tiger AN515 58 773Y.JPG',
         need: 'gaming',
         brand: 'acer',
         list_img: [
@@ -109,7 +109,7 @@ const productList = [
             giaChuaSale: 13600000,
             giaSale: 9990000
         },
-        image: '/images/3. Lenovo Ideapad 3.JPG',
+        image: '/ban-Laptop/images/3. Lenovo Ideapad 3.JPG',
         need: 'thin',
         brand: 'lenovo',
         list_img: [
@@ -160,7 +160,7 @@ const productList = [
             giaChuaSale: 21490000,
             giaSale: 18490000
         },
-        image: '/images/4.  Acer Aspire 7.JPG',
+        image: '/ban-Laptop/images/4.  Acer Aspire 7.JPG',
         need: 'gaming',
         brand: 'acer',
         list_img: [
@@ -211,7 +211,7 @@ const productList = [
             giaChuaSale: 11290000,
             giaSale: 9390000
         },
-        image: '/images/5. Lenovo IdeaPad 3.JPG',
+        image: '/ban-Laptop/images/5. Lenovo IdeaPad 3.JPG',
         need: 'office',
         brand: 'lenovo',
         list_img: [
@@ -262,7 +262,7 @@ const productList = [
             giaChuaSale: 32990000,
             giaSale: 26690000
         },
-        image: '/images/6. Macbook Air M2 2022 8GB 256GB.JPG',
+        image: '/ban-Laptop/images/6. Macbook Air M2 2022 8GB 256GB.JPG',
         need: 'thin',
         brand: 'macbook',
         list_img: [
@@ -313,7 +313,7 @@ const productList = [
             giaChuaSale: 45990000,
             giaSale: 39490000
         },
-        image: '/images/7. Macbook Air M2 2022.JPG',
+        image: '/ban-Laptop/images/7. Macbook Air M2 2022.JPG',
         need: 'office',
         brand: 'macbook',
         list_img: [
@@ -364,7 +364,7 @@ const productList = [
             giaChuaSale: 52990000,
             giaSale: 47990000
         },
-        image: '/images/8. MacBook Pro 14 inch M2 Pro 2023.JPG',
+        image: '/ban-Laptop/images/8. MacBook Pro 14 inch M2 Pro 2023.JPG',
         need: 'thin',
         brand: 'macbook',
         list_img: [
@@ -415,7 +415,7 @@ const productList = [
             giaChuaSale: 32990000,
             giaSale: 30690000
         },
-        image: '/images/9. Macbook Air 15 inch M2 2023 8GB 256GB.JPG',
+        image: '/ban-Laptop/images/9. Macbook Air 15 inch M2 2023 8GB 256GB.JPG',
         need: 'office',
         brand: 'macbook',
         list_img: [
@@ -466,7 +466,7 @@ const productList = [
             giaChuaSale: 14990000,
             giaSale: 13690000
         },
-        image: '/images/10. Laptop Dell Vostro 3520.JPG',
+        image: '/ban-Laptop/images/10. Laptop Dell Vostro 3520.JPG',
         need: 'office',
         brand: 'dell',
         list_img: [
@@ -517,7 +517,7 @@ const productList = [
             giaChuaSale: 18490000,
             giaSale: 17490000
         },
-        image: '/images/11. Laptop Dell Inspiron 14 2IN1 I7430-5800SLV RD7PJ.JPG',
+        image: '/ban-Laptop/images/11. Laptop Dell Inspiron 14 2IN1 I7430-5800SLV RD7PJ.JPG',
         need: 'graphic',
         brand: 'dell',
         list_img: [
@@ -568,7 +568,7 @@ const productList = [
             giaChuaSale: 23790000,
             giaSale: 18490000
         },
-        image: '/images/12. Laptop Acer Swift 3 SF314-43-R4X3 NX.AB1SV.004.JPG',
+        image: '/ban-Laptop/images/12. Laptop Acer Swift 3 SF314-43-R4X3 NX.AB1SV.004.JPG',
         need: 'thin',
         brand: 'acer',
         list_img: [
@@ -619,7 +619,7 @@ const productList = [
             giaChuaSale: 13600000,
             giaSale: 10490000
         },
-        image: '/images/13. Dell Inspiron 3511 5829BLK.JPG',
+        image: '/ban-Laptop/images/13. Dell Inspiron 3511 5829BLK.JPG',
         need: 'graphic',
         brand: 'dell',
         list_img: [
@@ -670,7 +670,7 @@ const productList = [
             giaChuaSale: 25990000,
             giaSale: 18490000
         },
-        image: '/images/14. Dell Gaming G15 Ryzen Edition 5515.JPG',
+        image: '/ban-Laptop/images/14. Dell Gaming G15 Ryzen Edition 5515.JPG',
         need: 'gaming',
         brand: 'dell',
         list_img: [
@@ -721,7 +721,7 @@ const productList = [
             giaChuaSale: 24290000,
             giaSale: 19990000
         },
-        image: '/images/15. Dell Inspirion N5515 N5R75700U104W1.JPG',
+        image: '/ban-Laptop/images/15. Dell Inspirion N5515 N5R75700U104W1.JPG',
         need: 'graphic',
         brand: 'dell',
         list_img: [
@@ -772,7 +772,7 @@ const productList = [
             giaChuaSale: 37990000,
             giaSale: 36490000
         },
-        image: '/images/16. MacBook Air 15 inch M2 2023 16GB 256GB.JPG',
+        image: '/ban-Laptop/images/16. MacBook Air 15 inch M2 2023 16GB 256GB.JPG',
         need: 'thin',
         brand: 'macbook',
         list_img: [
@@ -823,7 +823,7 @@ const productList = [
             giaChuaSale: 19600000,
             giaSale: 17590000
         },
-        image: '/images/17. Lenovo Ideapad Gaming 3 15IHU6 82K101HGVN.JPG',
+        image: '/ban-Laptop/images/17. Lenovo Ideapad Gaming 3 15IHU6 82K101HGVN.JPG',
         need: 'student',
         brand: 'lenovo',
         list_img: [
@@ -874,7 +874,7 @@ const productList = [
             giaChuaSale: 26600000,
             giaSale: 24490000
         },
-        image: '/images/18. Lenovo Gaming Legion 5 15ARH7 82RE002VVN.JPG',
+        image: '/ban-Laptop/images/18. Lenovo Gaming Legion 5 15ARH7 82RE002VVN.JPG',
         need: 'gaming',
         brand: 'lenovo',
         list_img: [
@@ -925,7 +925,7 @@ const productList = [
             giaChuaSale: 26490000,
             giaSale: 19990000
         },
-        image: '/images/19. Laptop Gaming Acer Nitro 5 Eagle AN515-57-5669 NH.QEHSV.JPG',
+        image: '/ban-Laptop/images/19. Laptop Gaming Acer Nitro 5 Eagle AN515-57-5669 NH.QEHSV.JPG',
         need: 'gaming',
         brand: 'acer',
         list_img: [
@@ -976,7 +976,7 @@ const productList = [
             giaChuaSale: 8700000,
             giaSale: 7990000
         },
-        image: '/images/20. Laptop Acer Aspire 3 A315-56-38B1 NX.HS5SV.00G.JPG',
+        image: '/ban-Laptop/images/20. Laptop Acer Aspire 3 A315-56-38B1 NX.HS5SV.00G.JPG',
         need: 'student',
         brand: 'acer',
         list_img: [
@@ -1027,7 +1027,7 @@ const productList = [
             giaChuaSale: 16990000,
             giaSale: 13990000
         },
-        image: '/images/21. Laptop Acer Gaming Aspire 7 A715-76-57CY NH.QGESV.JPG',
+        image: '/ban-Laptop/images/21. Laptop Acer Gaming Aspire 7 A715-76-57CY NH.QGESV.JPG',
         need: 'gaming',
         brand: 'acer',
         list_img: [
@@ -1078,7 +1078,7 @@ const productList = [
             giaChuaSale: 20490000,
             giaSale: 16990000
         },
-        image: '/images/22. Laptop Acer Aspire 5 A515-58GM-59LJ.JPG',
+        image: '/ban-Laptop/images/22. Laptop Acer Aspire 5 A515-58GM-59LJ.JPG',
         need: 'student',
         brand: 'acer',
         list_img: [
@@ -1129,7 +1129,7 @@ const productList = [
             giaChuaSale: 22300000,
             giaSale: 20990000
         },
-        image: '/images/23. Lenovo Yoga Slim 7 Pro 14IHU5 O 82NH00BDVN.JPG',
+        image: '/ban-Laptop/images/23. Lenovo Yoga Slim 7 Pro 14IHU5 O 82NH00BDVN.JPG',
         need: 'graphic',
         brand: 'lenovo',
         list_img: [
@@ -1180,7 +1180,7 @@ const productList = [
             giaChuaSale: 17990000,
             giaSale: 16990000
         },
-        image: '/images/24. Dell Inspiron 15 3525 NH20W.JPG',
+        image: '/ban-Laptop/images/24. Dell Inspiron 15 3525 NH20W.JPG',
         need: 'graphic',
         brand: 'dell',
         list_img: [
