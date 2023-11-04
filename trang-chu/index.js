@@ -1,4 +1,4 @@
-import hotSaleProductList from "./dung-chung/data.js";
+import hotSaleProductList from "../dung-chung/data.js";
 
 const wrapperNode = document.querySelector('.wrapper');
 const ulNode = document.querySelector('.carousel');
