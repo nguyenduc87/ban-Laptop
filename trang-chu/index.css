@@ -1,0 +1,274 @@
+/* Main content  */
+.boxHotSale {
+    background: linear-gradient(rgb(0, 0, 0), rgb(138, 5, 5)) 0% 0% / cover;;
+    border-radius: 2rem;
+    position: relative;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.boxHotSale .btn {
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    line-height: 4rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 1rem;
+    position: absolute;
+    top: 50%;
+    transition: 0.3s;
+}
+
+.boxHotSale .btn:active {
+    width: 4.7rem;
+    height: 4.7rem;
+}
+
+.boxHotSale .btn-left {
+    left: 0;
+    transform: translateX(-50%);
+}
+
+.boxHotSale .btn-right {
+    right: 0;
+    transform: translateX(50%);
+}
+
+.textSale {
+    text-align: center;
+    color: #fff;
+    margin: 2rem;
+    font-size: 2rem;
+    gap: 1rem;
+    box-shadow: 0px 1px 2px 1px rgba(235, 234, 234, 0.3);
+    padding: 0 1rem;
+    border-radius: 1rem;
+}
+
+.textSale strong {
+    font-style: italic;
+    color: #d70018;
+}
+
+.wrapper {
+    width: 108rem;
+    overflow: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: both;
+}
+
+.wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel {
+    display: flex;
+    width: max-content;
+}
+
+.carousel .card {
+    width: 25rem;
+    background-color: #fff;
+    border-radius: 0.8rem;
+    margin: 0 1rem;
+    padding: 1rem;
+    position: relative;
+    scroll-snap-align: start;
+}
+
+.carousel .card .percent {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 13rem;
+    text-align: center;
+    background-color: #d70018;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-radius: 0 0 1rem 1rem;
+}
+
+.carousel .card .heart {
+    position: absolute;
+    color: #eb3040;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    transform: translateX(100%);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.heart svg {
+    width: 2.5rem;
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+.heart svg:hover {
+    transform: scale(1.4);
+}
+
+.carousel .card:hover .heart {
+    opacity: 1;
+    transform: translateX(-100%);
+}
+
+.carousel .card .img {
+    margin-bottom: 1rem;
+    text-align: center;
+    overflow: hidden;
+}
+
+.carousel .card h2 {
+    margin-bottom: 3rem;
+}
+
+.carousel .card .price {
+    position: sticky;
+    top: 100%;
+}
+
+.carousel .card .gia-sale {
+    font-size: 1.7rem;
+    color: #d70018;
+    font-weight: 700;
+}
+
+.carousel .card .gia-chua-sale {
+    text-decoration: line-through;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.card img {
+    width: 15rem;
+    height: 13rem;
+    margin-top: 1.5rem;
+    transition: 0.3s;
+}
+
+.card img:hover {
+    transform: scale(1.05);
+}
+
+/* categories-content */
+.categories {
+    gap: 1rem;
+}
+
+.categories .list-img {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+}
+
+.categories .required-title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.list-img .picture {
+    width: 100%;
+    position: relative;
+}
+
+.picture .overlay {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 0.95;
+    transition: 0.3s;
+}
+
+.office {
+    background-color: #3297c5;
+}
+
+.game {
+    background-color: #eb3040;
+}
+
+.student {
+    background-color: #27b355;
+}
+
+.graphic {
+    background-color: #bbb933;
+}
+
+.thin {
+    background-color: #c94359;
+}
+
+.picture p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.picture img {
+    display: block;
+}
+
+.picture img,
+.picture .overlay {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+.picture:hover .overlay {
+    height: 0;
+}
+
+.picture:hover p {
+    color: #474747;
+    border-bottom: 1px solid #eb3040;
+    transform: translate(-50%, 8rem);
+}
+
+/* Footer  */
+.section-footer {
+    max-width: 120rem;
+    margin: auto;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+    font-size: 1.8rem;
+}
+
+.footer-address, .phone, .connect {
+    font-size: 2rem;
+}
+
+.footer-address a {
+    color: #3297c5;
+}
+
+.conect-logo {
+    gap: 2rem;
+}
+
+.conect-logo .logo {
+    width: 4rem;
+    height: 4rem;
+}
+
+.conect-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+

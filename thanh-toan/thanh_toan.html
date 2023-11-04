@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <title>Thanh Toan</title>
+    <link rel="stylesheet" href="thanh_toan.css">
+    <link rel="stylesheet" href="thanh_toan_responsive.css">
+</head>
+<body>
+    <header>
+        <a href="/cart/cart.html"> <- Quay lại giỏ hàng</a>
+        <div class="info-title">
+            <h1>Thông Tin Thanh Toán</h1>
+            <p>Vui lòng kiểm tra thông tin trước khi đặt hàng</p>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="customer-info">
+                <p class="customer-info-title">Thông tin khách hàng</p>
+                <div class="form">
+                    <div class="form-input">
+                        <input type="text" class="fullName" placeholder="Họ tên">
+                        <p class="name-error"></p>
+                    </div>
+                    <div class="form-input">
+                        <input type="text" class="address" placeholder="Địa chỉ nhận hàng">
+                        <p class="address-error"></p>
+                    </div>
+                    <div class="form-input">
+                        <input type="text" class="phone" placeholder="Số điện thoại">
+                        <p class="phone-error"></p>
+                    </div>
+                    <div class="form-input">
+                        <input type="text" class="email" placeholder="Email (hóa đơn VAT sẽ gửi qua email)">
+                        <p class="email-error"></p>
+                    </div>
+                    <div class="note">
+                        <label for="">Ghi chú (không bắt buộc)</label>
+                        <textarea name="" id="" cols="30" rows="5" placeholder="Nhắn cho người giao hàng..."></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-info">
+                <p class="cart-info-title">Thông tin giỏ hàng</p>
+                <ul class="cart-item">
+                    <!-- <li class="cart-content">
+                        <div class="name-product-box">
+                            <p class="name-product">Laptop Acer Gaming Nitro 5 Tiger AN515 58 773Y</p>
+                            <span class="thanh-tien">2,000,000đ</span>
+                        </div>
+                        <div class="quantity-product">
+                            <span class="quantity">1,000,000 đ x 2</span>
+                        </div>
+                    </li> -->
+                </ul>
+                <div class="promotion">
+                    <div class="promotion-code">
+                        <div class="inp-btn">
+                            <input type="text" placeholder="Mã thành viên (nếu có)">
+                            <button class="btn">OK</button>
+                        </div>
+                        <p class="code-error">Mã không tồn tại</p>
+                    </div>
+                    <div class="promotion-money">
+                        <span>Giảm: </span>
+                        <input type="text" value="0" readonly><span>đ</span>
+                    </div>
+                </div>
+                <div class="checkbox-money">
+                    <div class="cash">
+                        <input type="radio" name="check" id="radio1" checked>
+                        <label for="radio1">Thanh toán tiền mặt</label>
+                    </div>
+                    <div class="transfer">
+                        <input type="radio" name="check" id="radio2">
+                        <label for="radio2">Thanh toán chuyển khoản</label>
+                    </div>
+                </div>
+                <div class="total-payment">
+                    <h3>Tổng tiền thanh toán:</h3>
+                    <p class="gia-uu-dai"></p>
+                    <p class="gia-goc"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="order">
+            <button class="order-btn">Thanh Toán</button>
+        </div>
+    </footer>
+
+    <script src="thanh_toan.js"></script>
+</body>
+</html>

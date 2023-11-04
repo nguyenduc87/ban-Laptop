@@ -1,0 +1,109 @@
+@media (max-width: 1024px) {
+    .main-container {
+        padding: 0 1rem;
+    }
+
+    .slider {
+        max-height: 25rem;
+    }
+
+    .item img {
+        max-width: 100.4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .slider {
+        max-height: 19rem;
+    }
+
+    .item img {
+        max-width: 74.8rem;
+    }
+
+    .slider .dots li {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+
+    .dots li.active {
+        width: 4.5rem;
+        height: 1.2rem;
+    }
+
+    .products .products-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .question-news-container {
+        grid-template-columns: 7fr;
+    }
+}
+
+@media (max-width: 544px) {
+    .products .products-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 425px) {
+    .buttons button {
+        padding: 0.7rem;
+        font-size: 1.5rem;
+    }
+
+    .slider .dots li {
+        margin: 0.6rem;
+    }
+
+    .slider {
+        max-height: 10rem;
+    }
+
+    .item img {
+        max-width: 40.5rem;
+    }
+
+    .slider .dots li {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .dots li.active {
+        width: 4.5rem;
+        height: 1rem;
+    }
+
+    .production-name .list img {
+        width: 100%;
+    }
+
+    .products .products-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 375px) {
+    .slider {
+        max-height: 9rem;
+    }
+
+    .item img {
+        max-width: 35.5rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .slider {
+        max-height: 8rem;
+    }
+
+    .item img {
+        max-width: 30rem;
+    }
+
+    .buttons button {
+        padding: 0.5rem;
+        font-size: 1.2rem;
+    }
+}

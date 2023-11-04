@@ -1,0 +1,37 @@
+@media (max-width: 544px) {
+    .forget-pass-popup-container {
+        width: 100%;
+    }
+
+    .forget-text .text-nhap-so {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 425px) {
+    header a p {
+        font-size: 1.5rem;
+    }
+
+    main .container .form {
+        width: 35rem;
+    }
+
+    main .title h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 320px) {
+    main .container .form {
+        width: 30rem;
+    }
+
+    .form .dang-ky-ngay {
+        font-size: 1.2rem;
+    }
+
+    .form .forget-pass {
+        font-size: 1.4rem;
+    }
+}

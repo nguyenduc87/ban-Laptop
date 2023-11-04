@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+  
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1.6;
+  color: #474747;
+  height: 100%;
+}
+
+/* HEADER STICKY STYLE
+----------------------------------------------------- */
+.header {
+  box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.header.is-sticky {
+  box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  animation: slideDown 0.5s;
+}
+
+@keyframes slideDown {
+  from {
+      transform: translateY(-100%);
+  }
+  to {
+      transform: translateY(0);
+  }
+}
+/* END HEADER STICKY STYLE
+----------------------------------------------------- */
+
+main {
+  max-width: 120rem;
+  margin: 12rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+footer {
+  width: 100%;
+  padding: 2rem 0;
+  background-color: #e4dede;
+  position: sticky;
+  top: 100%;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: #474747;
+}
+
+li {
+  list-style: none;
+}
+
+svg {
+  width: 2rem;
+}
+
+/* button prev , next */
+.buttons button {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  cursor: pointer;
+  padding: 1.6rem;
+  background-color: #fff3;
+  border: 1px solid #fff3;
+  color: #333;
+  font-size: 2rem;
+  font-weight: 700;
+  border-radius: 0 0.4rem 0.4rem 0;
+  transition: 0.5s;
+}
+
+.buttons button.next {
+  right: 0;
+  border-radius: 0.4rem 0 0 0.4rem;
+}
+
+.buttons button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+}

@@ -1,0 +1,352 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    height: 100%;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    line-height: 1.6;
+    color: #474747;
+    background: url('/images/login/login.jpg') no-repeat center;
+    height: 100%;
+}
+
+.clr {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+header a p {
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 1.5rem;
+    color: #ccc;
+    display: inline-block;
+    transition: 0.3s;
+    border-bottom: 1px solid #474747;
+}
+
+header a p:hover {
+    color: #d70018;
+    border-bottom: 1px solid #d70018;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+main .title {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+main .title h1 {
+    font-size: 4rem;
+    color: #e9e6e6;
+}
+
+main .container {
+    display: flex;
+    flex-direction: column;
+}
+
+main .container .text {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
+
+.text .dang-nhap,
+.text .dang-ky {
+    color: #afadad;
+    padding: 0 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.white {
+    background-color: #fff;
+}
+
+main .container .form {
+    width: 50rem;
+    min-height: 20rem;
+    padding: 2rem;
+    box-shadow: 1px 1px 7px 2px rgba(255, 255, 255, 0.3);
+}
+
+/* Form dang nhap  */
+.container .form .form-input {
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+    position: relative;
+}
+
+.form .form-input input {
+    color: #ccc;
+    background-color: unset;
+    padding: 1rem;
+    width: 100%;
+    font-size: 1.5rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    transition: 0.3s;
+}
+
+input::placeholder {
+    color: #ccc;
+}
+
+.form-input input:focus {
+    border-bottom: 1px solid #d70018;
+}
+
+.container .form .btn {
+    margin-top: 1rem;
+}
+
+.form .forget-pass {
+    float: right;
+    border: none;
+    background-color: unset;
+    font-size: 1.7rem;
+    color: #ccc;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form .forget-pass:hover {
+    color: #d70018;
+}
+
+.form .btn .dang-nhap-btn, .dang-ky-btn {
+    width: 100%;
+    margin-top: 4rem;
+    border: none;
+    font-size: 2rem;
+    background-color: #d70018;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.dang-ky-btn {
+    margin-top: 2rem;
+}
+
+.form .btn .dang-nhap-btn:active, .dang-ky-btn:active {
+    opacity: 0.8;
+}
+
+.form .dang-ky-ngay {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.dang-ky-ngay p {
+    color: #ccc;
+}
+
+.form .dang-ky-ngay button {
+    border: none;
+    background-color: unset;
+    color: #d70018;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Form dang ky  */
+.form2 {
+    display: none;
+}
+
+.form .checkbox {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.5rem;
+    margin: 2rem 0;
+}
+
+.checkbox label {
+    color: #ccc;
+    cursor: pointer;
+}
+
+.checkbox .checkbox-input {
+    cursor: pointer;
+    accent-color: #d70018;
+}
+
+.icon-mat-hide,
+.icon-mat-show {
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    width: 2.5rem;
+    cursor: pointer;
+}
+
+.icon-mat-show {
+    display: none;
+}
+
+.form2-icon-mat-hide,
+.form2-icon-mat-show {
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    width: 2.5rem;
+    cursor: pointer;
+}
+
+.form2-icon-mat-show {
+    display: none;
+}
+
+.form2-icon-mat-hide-re-pass,
+.form2-icon-mat-show-re-pass {
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    width: 2.5rem;
+    cursor: pointer;
+}
+
+.form2-icon-mat-show-re-pass {
+    display: none;
+}
+
+.form-input p {
+    color: #d70018;
+    padding: 0 1rem;
+}
+
+/* Popup quên mật khẩu */
+.forget-pass-popup {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+.forget-pass-popup-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.forget-pass-popup-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 45rem;
+    background-color: #fff;
+    padding: 1.5rem;
+    font-size: 2rem;
+    transform: translateX(100%);
+    transition: 0.3s;
+}
+
+.forget-pass-popup-open {
+    visibility: visible;
+}
+
+.forget-pass-popup-open .forget-pass-popup-overlay {
+    opacity: 0.8;
+}
+
+.forget-pass-popup-open .forget-pass-popup-container {
+    transform: translateX(0);
+}
+
+.forget-text {
+    margin-top: 5rem;
+}
+
+.forget-input input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 1.7rem;
+    padding: 1rem;
+    width: 100%;
+    margin-top: 2rem;
+    transition: 0.3s;
+}
+
+.forget-input input:focus {
+    border-bottom: 1px solid #d70018;
+}
+
+.forget-input .forget-input-text-error {
+    color: #d70018;
+    padding: 0 1rem;
+    font-size: 1.5rem;
+}
+
+.forget-submit {
+    margin: 2rem 0;
+}
+
+.forget-submit input {
+    outline: none;
+    border: none;
+    width: 10rem;
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: #d70018;
+    color: #fff;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.forget-submit input:active {
+    opacity: 0.7;
+}
+
+.forget-pass-popup-container .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    cursor: pointer;
+}
+.forget-pass-popup-container .close:hover {
+    background-color: #ccc;
+}
+
+.close svg {
+    width: 2rem;
+}
+

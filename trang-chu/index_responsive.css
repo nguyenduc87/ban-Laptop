@@ -1,0 +1,144 @@
+@media (max-width: 1024px) {
+    .wrapper {
+        max-width: 80rem;
+    }
+
+    .card img {
+        width: 21rem;
+        height: 18rem;
+    }
+
+    .picture:hover p {
+        transform: translate(-50%, 6rem);
+    }
+
+    .categories .list-img {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .footer-contact {
+        gap: 8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .textSale {
+        font-size: 1.5rem;
+    }
+
+    .wrapper {
+        width: 64rem;
+    }
+
+    .carousel .card {
+        width: 31rem;
+    }
+
+    .card {
+        width: calc(50% - 2rem);
+    }
+
+    .categories .list-img {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .conect-logo {
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 544px) {
+    .wrapper {
+        width: 48rem;
+    }
+
+    .carousel .card {
+        width: 23rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .textSale svg {
+        width: 6rem;
+    }
+
+    .wrapper,
+    .carousel .card {
+        width: 35rem;
+    }
+
+    .card {
+        width: calc(100%);
+    }
+
+    .ten-hang, .ten-nhu-cau {
+        font-size: 1.1rem;
+    }
+
+    .categories .list-img {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card img {
+        width: 23rem;
+        height: 20rem;
+    }
+
+    .card h2 {
+        font-size: 2rem;
+    }
+
+    .carousel .card .gia-chua-sale {
+        font-size: 1.8rem;
+    }
+
+    .carousel .card .gia-sale {
+        font-size: 2.5rem;
+    }
+
+    .picture:hover p {
+        transform: translate(-50%, 400%);
+    }
+}
+
+@media (max-width: 375px) {
+    .textSale {
+        font-size: 1rem;
+    }
+
+    .textSale svg {
+        width: 4rem;
+    }
+
+    .wrapper,
+    .carousel .card {
+        width: 30rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .wrapper {
+        width: 25rem;
+    }
+
+    .carousel .card {
+        width: 25rem;
+    }
+
+    .card {
+        width: calc(100%);
+    }
+
+    .textSale {
+        font-size: 0.7rem;
+    }
+
+    .textSale svg {
+        width: 2.5rem;
+    }
+
+    .boxHotSale .btn {
+        width: 3rem;
+        height: 3rem;
+    }
+}

@@ -1,0 +1,272 @@
+.main-content {
+    max-width: 120rem;
+    margin: 10rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.empty-cart {
+    text-align: center;
+    padding: 1rem;
+}
+
+.empty-cart-header {
+    display: flex;
+    align-items: center;
+    max-width: 60rem;
+    margin: auto;
+    padding: 1rem 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.empty-cart-header i {
+    font-size: 2.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.empty-cart-header i:hover {
+    color: #d40a0a;
+}
+
+.empty-cart-header h1 {
+    flex: 1;
+    font-size: 2rem;
+}
+
+.empty-cart-content {
+    display: none;
+}
+
+.empty-cart-body {
+    max-width: 60rem;
+    margin: auto;
+}
+
+.empty-cart-body img {
+    width: 30rem;
+    margin: 2rem 0;
+}
+
+.empty-cart-body .text1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.empty-cart-body .text2 {
+    font-size: 1.5rem;
+}
+
+.empty-cart-footer {
+    max-width: 60rem;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.empty-cart-footer button {
+    width: 100%;
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: #d40a0a;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.empty-cart-footer button:active {
+    opacity: 0.8;
+}
+
+/* Cart Container */
+.cart-container {
+    padding: 0 1rem;
+}
+
+.cart-container .cart-body {
+    margin: auto;
+    max-width: 60rem;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.cart-body .cart-item {
+    display: flex;
+    padding: 1rem 1rem 1rem 0;
+    gap: 1rem;
+}
+
+.cart-item .item-img {
+    position: relative;
+}
+
+.item-img .item-check {
+    position: absolute;
+    top: 0;
+    left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
+}
+
+.item-img .item-check input {
+    accent-color: #0a7e0f;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.cart-item .item-img img {
+    width: 14rem;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    transition: 0.3s;
+}
+
+.cart-item .item-img img:hover {
+    transform: scale(1.04);
+}
+
+.item-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex: 1;
+}
+
+.item-content .title {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    font-weight: 600;
+    
+}
+
+.item-content .title p:hover {
+    text-decoration: underline;
+}
+
+.delete-icon i {
+    margin-bottom: 2rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.delete-icon i:hover {
+    color: #d70018;
+}
+
+.quantity-price {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.quantity-price .quantity,
+.quantity-price .price {
+    display: flex;
+    flex-direction: column;
+}
+
+.price .gia-ban .gia-sale {
+    font-size: 1.7rem;
+    color: #d70018;
+}
+
+.price .gia-ban .gia-goc {
+    font-size: 1.5rem;
+    color: #333;
+    text-decoration:line-through
+}
+
+.quantity .btn-input {
+    display: flex;
+}
+
+.btn-input .btn-down, .btn-up {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    border: none;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.btn-input .btn-down:active, .btn-up:active {
+    opacity: 0.7;
+}
+
+.btn-input .inp {
+    width: 5rem;
+    outline: none;
+    border: none;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    font-size: 1.5rem;
+}
+
+/* Footer */
+.cart-pay {
+    padding: 0 1rem;
+    margin-top: 7rem;
+}
+
+.cart-pay-box {
+    position: fixed;
+    bottom: 0;
+    max-width: 60rem;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+}
+
+.cart-pay-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-pay-content .payment {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+}
+
+.payment .payment-price {
+    color: #d70018;
+    font-weight: 700;
+}
+
+.cart-buy-now .btn-action {
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: #d70018;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-action.disabled {
+    background-color: silver;
+    color: #717171;
+    cursor: not-allowed;
+}
+
+.cart-buy-now button:active {
+    opacity: 0.8;
+}
+
+
+
+
+
+

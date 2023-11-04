@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>Log in</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="login_responsive.css">
+</head>
+<body>
+    <header>
+        <a href="/index.html"><p>Quay lại trang chủ</p></a>
+    </header>
+    <main>
+        <div class="title">
+            <h1>Welcome to Laptop shop</h1>
+        </div>
+        <div class="container">
+            <div class="text">
+                <p class="dang-nhap white">Đăng nhập</label>
+                <p class="dang-ky">Đăng ký</label>
+            </div>
+            <!--  form đăng nhập -->
+            <div class="form1">
+                <div class="form">
+                    <div class="form-input">
+                        <input type="text" class="phone-dang-nhap" placeholder="Nhập số điện thoại">
+                        <p class="phone-dang-nhap-error"></p>
+                    </div>
+                    <div class="form-input">
+                        <input type="password" class="password-dang-nhap" placeholder="Nhập mật khẩu">
+                        <p class="password-dang-nhap-error"></p>
+                        <img class="icon-mat-hide" src="/images/login/icon_mat_hide.png" alt="">
+                        <img class="icon-mat-show" src="/images/login/icon_mat.png" alt="">
+                    </div>
+                    <div class="btn">
+                        <span class="forget-pass">Quên mật khẩu?</span>
+                        <div class="clr"></div>
+                        <input type="submit" class="dang-nhap-btn" value="Đăng nhập">
+                    </div>
+                    <div class="dang-ky-ngay">
+                        <p>Bạn chưa có tài khoản?</p>
+                        <button>Đăng ký ngay</button>
+                    </div>
+                </div>
+            </div>
+            <!--  form đăng ký -->
+            <div class="form2">
+                <div class="form">
+                    <div class="form-input">
+                        <input type="text" class="fullName" placeholder="Nhập họ tên">
+                        <p class="nameLogin-error"></p>
+                    </div>
+                    <div class="form-input">
+                        <input type="text" class="phone" placeholder="Nhập số điện thoại">
+                        <p class="phoneLogin-error"></p>
+                    </div>
+                    <div class="form-input">
+                        <input type="email" class="email" placeholder="Nhập email">
+                        <p class="emailLogin-error"></p>
+                    </div>
+                    <div class="form-input">
+                        <input type="password" class="password" placeholder="Nhập mật khẩu">
+                        <p class="passLogin-error"></p>
+                        <img class="form2-icon-mat-hide" src="/images/login/icon_mat_hide.png" alt="">
+                        <img class="form2-icon-mat-show" src="/images/login/icon_mat.png" alt="">
+                    </div>
+                    <div class="form-input">
+                        <input type="password" class="re-password" placeholder="Nhập lại mật khẩu">
+                        <p class="rePassLogin-error"></p>
+                        <img class="form2-icon-mat-hide-re-pass" src="/images/login/icon_mat_hide.png" alt="">
+                        <img class="form2-icon-mat-show-re-pass" src="/images/login/icon_mat.png" alt="">
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" class="checkbox-input" id="checkbox">
+                        <label for="checkbox">Đăng ký nhận tin khuyến mãi qua email.</label>
+                    </div>
+                    <div class="btn">
+                        <input type="submit" class="dang-ky-btn" value="Đăng ký">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Popup quên mật khẩu -->
+    <div class="forget-pass-popup">
+        <div class="forget-pass-popup-overlay"></div>
+        <div class="forget-pass-popup-container">
+            <div class="close">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+                </svg>
+            </div>
+            <div class="forget-text">
+                <p>Quên mật khẩu?</p>
+                <p class="text-nhap-so">Nhập số điện thoại để lấy lại mật khẩu !</p>
+            </div>
+            <div class="forget-input">
+                <input type="text" placeholder="Nhập số điện thoại đã đăng ký">
+                <p class="forget-input-text-error"></p>
+            </div>
+            <div class="forget-submit">
+                <input type="submit" value="Gửi">
+            </div>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

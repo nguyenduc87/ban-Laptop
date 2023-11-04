@@ -1,0 +1,25 @@
+@media (max-width: 704px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .form .form-input input, 
+    .form .note {
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    .name-product-box {
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .promotion {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+}

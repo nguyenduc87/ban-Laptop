@@ -1,0 +1,47 @@
+@media (max-width: 425px) {
+    .cart-item .item-img img {
+        width: 12rem;
+    }
+
+    .item-content .title {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .item-content {
+        gap: 1rem;
+    }
+
+    .cart-item .item-img img {
+        width: 10rem;
+    }
+
+    .price .gia-ban .gia-sale {
+        font-size: 1.5rem;
+    }
+    
+    .price .gia-ban .gia-goc {
+        font-size: 1.3rem;
+    }
+
+    .btn-input .btn-down, .btn-up {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .item-img .item-check {
+        left: 1rem;
+    }
+
+    .item-img .item-check input {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .cart-item .item-img img {
+        width: 8rem;
+    }
+}
