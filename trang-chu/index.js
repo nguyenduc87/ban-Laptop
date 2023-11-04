@@ -1,4 +1,4 @@
-import hotSaleProductList from "/dung-chung/data.js";
+import hotSaleProductList from "./dung-chung/data.js";
 
 const wrapperNode = document.querySelector('.wrapper');
 const ulNode = document.querySelector('.carousel');
@@ -47,12 +47,12 @@ function renderImageHotSale() {
         liNode.classList.add('card');
         liNode.innerHTML = `
         <div class="percent">${Math.round((item.price.giaSale / item.price.giaChuaSale) * 100 - 100)}%</div>
-        <a href="/chi-tiet/chi_tiet.html?id=${item.id}">
+        <a href="./chi-tiet/chi_tiet.html?id=${item.id}">
             <div class="img">
                 <img src="${item.image}" alt="img">
             </div>
         </a>
-        <a href="/chi-tiet/chi_tiet.html?id=${item.id}">
+        <a href="./chi-tiet/chi_tiet.html?id=${item.id}">
             <h2>${item.name}</h2>
         </a>
         <div class="price">
