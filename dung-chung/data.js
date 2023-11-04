@@ -11,11 +11,11 @@ const productList = [
         need: 'student',
         brand: 'acer',
         list_img: [
-            '/Chi-tiet/images/acer/Acer Aspire 3 A315/01.JPG',
-            '/Chi-tiet/images/acer/Acer Aspire 3 A315/02.JPG',
-            '/Chi-tiet/images/acer/Acer Aspire 3 A315/03.JPG',
-            '/Chi-tiet/images/acer/Acer Aspire 3 A315/04.JPG',
-            '/Chi-tiet/images/acer/Acer Aspire 3 A315/05.JPG',
+            '/ban-Laptop/Chi-tiet/images/acer/Acer Aspire 3 A315/01.JPG',
+            '/ban-Laptop/Chi-tiet/images/acer/Acer Aspire 3 A315/02.JPG',
+            '/ban-Laptop/Chi-tiet/images/acer/Acer Aspire 3 A315/03.JPG',
+            '/ban-Laptop/Chi-tiet/images/acer/Acer Aspire 3 A315/04.JPG',
+            '/ban-Laptop/Chi-tiet/images/acer/Acer Aspire 3 A315/05.JPG',
         ],
         technical_info: {
             card: 'Intel Iris Xe Graphics',
