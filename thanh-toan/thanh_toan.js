@@ -53,6 +53,8 @@ function getCodeMember() {
     if (promotionCode.value === '') {
         codeError.classList.remove('open');
         alert('Vui lòng nhập mã thành viên.');
+        promotionMoney.value = '0';
+        giaGoc.style.display = 'none';
     } else {
         if (codeMemberObj[promotionCode.value] === undefined) {
             promotionMoney.value = '0';
