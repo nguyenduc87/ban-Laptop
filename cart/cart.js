@@ -25,7 +25,7 @@ window.addEventListener('load', () => {
             ulNode.innerHTML = `
             <li class="cart-item">
                 <div class="item-img">
-                    <a href="/chi-tiet/chi_tiet.html?id=${item.id}">
+                    <a href="/ban-Laptop/chi-tiet/chi_tiet.html?id=${item.id}">
                         <img src="${item.image}" alt="">
                     </a>
                     <div class="item-check">
@@ -34,7 +34,7 @@ window.addEventListener('load', () => {
                 </div>
                 <div class="item-content">
                     <div class="title">
-                        <a href="/chi-tiet/chi_tiet.html?id=${item.id}">
+                        <a href="/ban-Laptop/chi-tiet/chi_tiet.html?id=${item.id}">
                             <p class="name-product">${item.name}</p>
                         </a>
                         <div class="delete-icon">
