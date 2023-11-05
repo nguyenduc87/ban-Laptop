@@ -105,7 +105,7 @@ function renderProducts(paramArr) {
         const liNode = document.createElement('li');
         ulNode.appendChild(liNode);
         liNode.innerHTML = `
-            <a href="./chi-tiet/chi_tiet.html?id=${item.id}">
+            <a href="/ban-Laptop/chi-tiet/chi_tiet.html?id=${item.id}">
                 <img src="${item.image}" alt="">
                 <span>${item.search_name}<br>${dollar.format(item.price.giaSale)}đ</span>
             </a>
