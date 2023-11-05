@@ -34,7 +34,7 @@ window.addEventListener('load', () => {
                         <span class="thanh-tien">${dollar.format(item.price.giaSale * item.quantity)}đ</span>
                     </div>
                     <div class="quantity-product">
-                        <span class="quantity"><strong>${dollar.format(item.price.giaSale)} đ</strong> x ${item.quantity}</span>
+                        <span class="quantity">${dollar.format(item.price.giaSale)} đ x ${item.quantity}</span>
                     </div>
                 `
             }
