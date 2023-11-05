@@ -49,7 +49,7 @@ function renderImageHotSale() {
         <div class="percent">${Math.round((item.price.giaSale / item.price.giaChuaSale) * 100 - 100)}%</div>
         <a href="./chi-tiet/chi_tiet.html?id=${item.id}">
             <div class="img">
-                <img src=".${item.image}" alt="img">
+                <img src="${item.image}" alt="img">
             </div>
         </a>
         <a href="./chi-tiet/chi_tiet.html?id=${item.id}">
